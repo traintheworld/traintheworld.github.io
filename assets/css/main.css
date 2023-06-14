@@ -26,7 +26,7 @@ nav > a{
 
 h1{
     text-align: center;
-    font-size: 300%;
+    font-size: 200%;
     text-transform: capitalize;
 }
 
@@ -45,7 +45,7 @@ section {
 #teamMembers{
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    gap: 4rem;
 }
 .teamMember{
     text-align: center;
@@ -57,7 +57,7 @@ section {
 #womenPlaceHolder{
     background-image: url("/assets/img/women.webp");
     background-color: var(--mainGreen);
-    min-height: 35rem;
+    min-height: 10rem;
     background-size: cover;
 
 
@@ -66,5 +66,11 @@ section {
 @media (min-width: 1126px) {
     section {
         padding: 2rem 25%;
+    }
+    #womenPlaceHolder{
+        min-height: 35rem;
+    }
+    h1{
+        font-size: 300%;
     }
 }
