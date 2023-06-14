@@ -59,6 +59,7 @@ section {
     background-color: var(--mainGreen);
     min-height: 10rem;
     background-size: cover;
+    padding: 2rem 0;
 
 
 }
