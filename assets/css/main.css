@@ -1,0 +1,70 @@
+:root {
+    --mainGreen: #2A7C6F;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: Helvetica, sans-serif;
+}
+
+nav{
+    text-align: center;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav > a{
+    font-size: small;
+    color: var(--mainGreen);
+}
+
+h1{
+    text-align: center;
+    font-size: 300%;
+    text-transform: capitalize;
+}
+
+h1>span{
+    text-transform: none;
+}
+
+section {
+    padding: 2rem 10%;
+    color:var(--mainGreen);
+}
+
+#team{
+    text-align: center;
+}
+#teamMembers{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.teamMember{
+    text-align: center;
+}
+.teamMember a{
+    text-decoration: underline;
+    color: var(--mainGreen);
+}
+#womenPlaceHolder{
+    background-image: url("/assets/img/women.webp");
+    background-color: var(--mainGreen);
+    min-height: 35rem;
+    background-size: cover;
+
+
+}
+
+@media (min-width: 1126px) {
+    section {
+        padding: 2rem 25%;
+    }
+}

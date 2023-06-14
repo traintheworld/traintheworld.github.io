@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+    <html lang="de">
+    <head>
+        {% include meta_tags/meta.html %}
+        {% include externals/styling.html %}
+    </head>
+    <body>
+        <header>
+            {% include page/navigation.html %}
+        </header>
+        
+        
+        <div class="wrapper" id="wrapper">
+            {{ content }}
+        </div>
+        <!-- Footer -->
+        {% include page/footer.html %}
+    </body>
+</html>
