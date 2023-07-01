@@ -1,11 +1,20 @@
 :root {
     --mainGreen: #2A7C6F;
+    --mainGray: #36454F;
 }
 
 html {
     scroll-behavior: smooth;
     font-family: Helvetica, sans-serif;
 }
+body{
+    margin: 0em;    
+}
+
+h1,h2,h3,h4{
+    color:var(--mainGreen);
+}
+
 
 nav{
     text-align: center;
@@ -36,7 +45,10 @@ h1>span{
 
 section {
     padding: 2rem 10%;
-    color:var(--mainGreen);
+}
+
+p{
+    color:var(--mainGray);
 }
 
 #team{
@@ -61,7 +73,29 @@ section {
     background-size: cover;
     padding: 2rem 0;
 
+}
 
+footer{
+    background-color: #36454F;
+    color: white;
+    min-height: 10rem;
+}
+
+.footerFlex{
+    padding: 1rem 2rem;
+    display: flex;
+}
+
+.footerFlex h2{
+    color: white;
+}
+.footerFlex a{
+    color: white;
+    text-decoration: underline;
+}
+
+.footerFlex p{
+    color: white;
 }
 
 @media (min-width: 1126px) {
