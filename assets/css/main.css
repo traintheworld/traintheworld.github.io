@@ -84,6 +84,8 @@ footer{
 .footerFlex{
     padding: 1rem 2rem;
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .footerFlex h2{
@@ -96,11 +98,23 @@ footer{
 
 .footerFlex p{
     color: white;
+    margin-bottom: 0rem;
+}
+
+#eu{
+    align-self: flex-end;
+}
+
+#eu img{
+    width: 60%;
 }
 
 @media (min-width: 1126px) {
+    .footerFlex{
+        padding: 1rem 10%;
+    }
     section {
-        padding: 2rem 25%;
+        padding: 2rem 2rm;
     }
     #womenPlaceHolder{
         min-height: 35rem;
@@ -108,4 +122,8 @@ footer{
     h1{
         font-size: 300%;
     }
+    #eu img{
+        width: 200px;
+    }
+    
 }
