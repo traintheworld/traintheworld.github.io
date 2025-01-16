@@ -29,8 +29,8 @@ a {
 }
 
 nav > a{
-    font-size: small;
     color: var(--mainGreen);
+    font-weight: bold;
 }
 
 h1{
@@ -62,6 +62,44 @@ p{
 .teamMember{
     text-align: center;
 }
+
+.bericht{
+    border-color: #36454F;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 1px;
+}
+
+.custom-button {
+    padding: 10px 20px;
+    background-color: #36454F;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.custom-button:hover {
+    background-color: #2A7C6F;
+}
+.c-b{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.b-w{
+    margin: 0 1rem 1rem 1rem;
+}
+.b-h{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .teamMember a{
     text-decoration: underline;
     color: var(--mainGreen);
