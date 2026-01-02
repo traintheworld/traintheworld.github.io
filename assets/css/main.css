@@ -7,16 +7,20 @@ html {
     scroll-behavior: smooth;
     font-family: Helvetica, sans-serif;
 }
-body{
-    margin: 0em;    
+
+body {
+    margin: 0em;
 }
 
-h1,h2,h3,h4{
-    color:var(--mainGreen);
+h1,
+h2,
+h3,
+h4 {
+    color: var(--mainGreen);
 }
 
 
-nav{
+nav {
     text-align: center;
     display: flex;
     gap: 2rem;
@@ -28,18 +32,18 @@ a {
     text-decoration: none;
 }
 
-nav > a{
+nav>a {
     color: var(--mainGreen);
     font-weight: bold;
 }
 
-h1{
+h1 {
     text-align: center;
     font-size: 200%;
     text-transform: capitalize;
 }
 
-h1>span{
+h1>span {
     text-transform: none;
 }
 
@@ -47,23 +51,25 @@ section {
     padding: 2rem 10%;
 }
 
-p{
-    color:var(--mainGray);
+p {
+    color: var(--mainGray);
 }
 
-#team{
+#team {
     text-align: center;
 }
-#teamMembers{
+
+#teamMembers {
     display: flex;
     flex-direction: column;
     gap: 4rem;
 }
-.teamMember{
+
+.teamMember {
     text-align: center;
 }
 
-.bericht{
+.bericht {
     border-color: #36454F;
     border-style: solid;
     border-radius: 20px;
@@ -85,26 +91,29 @@ p{
 .custom-button:hover {
     background-color: #2A7C6F;
 }
-.c-b{
+
+.c-b {
     margin-top: 1rem;
     display: flex;
     justify-content: center;
 }
 
-.b-w{
+.b-w {
     margin: 0 1rem 1rem 1rem;
 }
-.b-h{
+
+.b-h {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.teamMember a{
+.teamMember a {
     text-decoration: underline;
     color: var(--mainGreen);
 }
-#womenPlaceHolder{
+
+#womenPlaceHolder {
     background-image: url("/assets/img/women.webp");
     background-color: var(--mainGreen);
     min-height: 10rem;
@@ -113,55 +122,64 @@ p{
 
 }
 
-footer{
+footer {
     background-color: #36454F;
     color: white;
     min-height: 10rem;
 }
 
-.footerFlex{
+.footerFlex {
     padding: 1rem 2rem;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.footerFlex h2{
+.footerFlex h2 {
     color: white;
 }
-.footerFlex a{
+
+.footerFlex a {
     color: white;
     text-decoration: underline;
 }
 
-.footerFlex p{
+.footerFlex p {
     color: white;
     margin-bottom: 0rem;
 }
 
-#eu{
+#eu {
     align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100px;
 }
 
-#eu img{
+#eu img {
     width: 60%;
 }
 
 @media (min-width: 1126px) {
-    .footerFlex{
+    .footerFlex {
         padding: 1rem 10%;
     }
+
     section {
         padding: 2rem 2rm;
     }
-    #womenPlaceHolder{
+
+    #womenPlaceHolder {
         min-height: 35rem;
     }
-    h1{
+
+    h1 {
         font-size: 300%;
     }
-    #eu img{
+
+    #eu img {
         width: 200px;
     }
-    
+
 }
