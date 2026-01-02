@@ -100,8 +100,9 @@ p {
 
 .c-b-wrapp {
     margin-top: 1rem;
-    display: grid;
-    grid-template-columns: 1fr auto 1fr;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .eu-logo {
