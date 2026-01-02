@@ -95,18 +95,18 @@ p {
 .c-b {
     display: flex;
     justify-content: center;
-    align-self: center;
+    margin: 0 auto;
 }
 
 .c-b-wrapp {
     margin-top: 1rem;
     display: flex;
-    justify-content: center;
+    align-items: center;
 }
 
 .eu-logo {
-    align-self: flex-end;
     height: 40px;
+    margin-left: auto;
 }
 
 .b-w {
