@@ -109,6 +109,17 @@ p {
     justify-self: end;
 }
 
+.eu-logo-head {
+    height: 40px;
+}
+
+.head-logo {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
 .b-w {
     margin: 0 1rem 1rem 1rem;
 }
