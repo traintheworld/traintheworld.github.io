@@ -101,13 +101,11 @@ p {
 .c-b-wrapp {
     margin-top: 1rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap: 2rem;
 }
 
-.c-b-wrapp>div:first-child {
-    flex: 1;
-}
 
 .eu-logo {
     height: 40px;
