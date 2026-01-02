@@ -105,6 +105,10 @@ p {
     align-items: center;
 }
 
+.c-b-wrapp>div:first-child {
+    flex: 1;
+}
+
 .eu-logo {
     height: 40px;
     justify-self: end;
