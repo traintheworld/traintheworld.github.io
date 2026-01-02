@@ -93,9 +93,20 @@ p {
 }
 
 .c-b {
+    display: flex;
+    justify-content: center;
+}
+
+.c-b-wrapp {
     margin-top: 1rem;
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.eu-logo {
+    align-self: flex-end;
+    height: 112px;
 }
 
 .b-w {
@@ -154,7 +165,7 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 100px;
+    width: 200px;
 }
 
 #eu img {
